@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="collapsedMaxLine" format="integer" />
+        <attr name="expandedMaxLine" format="integer" />
+        <attr name="collapsedText" format="reference|string" />
+        <attr name="cutContentSuffix" format="reference|string" />
+        <attr name="expandedText" format="reference|string" />
+        <attr name="collapsedTextColor" format="reference|color" />
+        <attr name="expandedTextColor" format="reference|color" />
+        <attr name="collapsedDrawable" format="reference" />
+        <attr name="expandedDrawable" format="reference" />
+        <attr name="suffixDrawableSize" format="reference|dimension" />
+        <attr name="needAnimation" format="boolean" />
+        <attr name="ep_content" format="reference|string" />
+    </declare-styleable>
+</resources>
